@@ -1,0 +1,33 @@
+/* style.css */
+
+html, body {
+  background-color: #042a49;
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+
+    display: flex;
+  
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+  
+    /* This centers our sketch vertically. */
+    align-items: center;
+  }
+
+  .js {
+    border: solid;
+    border-color: #2196f3;
+    border-width: 0.2em;
+    background: linear-gradient(180deg, transparent, #2196f3);
+
+    box-shadow: 0 0 10px #2196f3, 0 0 5px #2196f3, 0 0 30px #2196f3, 0 0 10px #2196f3 ; 
+  }
+
+  .js:hover {
+    color: #255784;
+ 
+
+  }
