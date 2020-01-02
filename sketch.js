@@ -2,7 +2,7 @@
 let pixelSize = 10;
 let aliveColor = "#2196f3";
 let backGround = "#031321"  ;
-let fps = 60;
+let fps = 20;
 let wW;
 // let Heigth = 600;
 let mReleased = true;
