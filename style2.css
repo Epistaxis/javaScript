@@ -1,0 +1,29 @@
+/* style.css */
+
+html, body {
+    background-color: white;
+      height: 100%;
+    }
+    
+    body {
+      margin: 0;
+  
+      display: flex;
+    
+      /* This centers our sketch horizontally. */
+      justify-content: center;
+    
+      /* This centers our sketch vertically. */
+      align-items: center;
+    }
+  
+    .js {
+      border: solid;
+      border-color: black;
+      border-width: 0.2em;
+      background: linear-gradient(180deg, transparent, black);
+  
+      box-shadow: 0 0 10px black, 0 0 5px black, 0 0 30px black, 0 0 10px black ; 
+    }
+  
+  
